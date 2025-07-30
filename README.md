@@ -413,6 +413,32 @@ This project is licensed under the AGPL License - see the [LICENSE](LICENSE) fil
 </div>
 
 
+## 📚 Documentation
+
+### Checkpoint System Documentation
+The Claudia Checkpoint System has comprehensive technical documentation available:
+
+- **📖 [HTML Documentation](docs/claudia-checkpoint-system-documentation.html)** - Interactive web-based documentation
+- **📄 [PDF Documentation](docs/claudia-checkpoint-system-documentation.pdf)** - Printable PDF version
+- **🛠️ [PDF Generator](docs/generate_pdf.py)** - Script to regenerate PDF from HTML
+
+The documentation covers:
+- Technical architecture and design patterns
+- Core components (CheckpointManager, CheckpointState, CheckpointStorage, SessionTimeline)
+- API documentation with TypeScript/Rust examples
+- Usage patterns and integration guides
+- File organization and storage optimization
+- Performance considerations and best practices
+
+To view the documentation:
+```bash
+# Open HTML documentation in browser
+open docs/claudia-checkpoint-system-documentation.html
+
+# Generate PDF (requires Python + weasyprint)
+cd docs && python generate_pdf.py
+```
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=getAsterisk/claudia&type=Date)](https://www.star-history.com/#getAsterisk/claudia&Date)
